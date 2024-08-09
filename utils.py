@@ -9,7 +9,7 @@ def new_interest_balance(account_balance, apr, months):
 def is_float(str):
     return str.replace(".","",1).isdigit()
 
-def prompt_user(prompt, return_type):
+def check_input(prompt, return_type):
     while True:
         # Get input
         user_input = input(prompt)
